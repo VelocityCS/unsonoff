@@ -6,3 +6,7 @@ Components:
 2. unsonoff server. This will have 2x interfaces: 1 to receive data from/send commands to sonoff devices, and 1 to listen for commands and provide feedback
 3. unsonoff controller. This will be a HA component
 4. desonoff. This is to reprogram the devices to use the unsonoff server
+
+Unsonoff server:
+The replacement for the sonoff cloud implements secure websockets to talk with devices. To emulate this we can use crossbar.io
+For reception of commands we can simply use an http server
