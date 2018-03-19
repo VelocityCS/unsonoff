@@ -8,5 +8,4 @@ Components:
 4. desonoff. This is to reprogram the devices to use the unsonoff server
 
 Unsonoff server:
-The replacement for the sonoff cloud implements secure websockets to talk with devices. To emulate this we can use crossbar.io
-For reception of commands we can simply use an http server
+The replacement for the sonoff cloud requires secure websockets for communications - both with devices and for commands/responses. To implement this we can use crossbar.io
