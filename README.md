@@ -9,3 +9,7 @@ Components:
 
 Unsonoff server:
 The replacement for the sonoff cloud requires secure websockets for communications - both with devices and for commands/responses. To implement this we can use crossbar.io
+
+Banana
+___
+Fish
